@@ -1,0 +1,488 @@
+Starting training: d=3, P_err=0.05, P_meas=0.01
+State size for agent: 12, Action size: 9 (flips one qubit)
+Max rounds per episode: 3, Gamma: 0.95
+Training Episodes:   1%|          | 200/30000 [02:21<5:03:36,  1.64it/s]Ep 200/30000 | Avg Reward: 0.00 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 0.2930 | Epsilon: 0.9164 | LR: 4.955049e-05
+Training Episodes:   1%|▏         | 400/30000 [04:52<5:38:11,  1.46it/s]Ep 400/30000 | Avg Reward: -0.02 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 0.4781 | Epsilon: 0.8397 | LR: 4.904886e-05
+Training Episodes:   2%|▏         | 600/30000 [07:24<6:17:43,  1.30it/s]Ep 600/30000 | Avg Reward: 0.02 | Avg Rounds: 2.84 | Log.Err %: 0.00% | Avg Loss: 1.7426 | Epsilon: 0.7696 | LR: 4.855317e-05
+Training Episodes:   3%|▎         | 800/30000 [09:59<6:21:00,  1.28it/s]Ep 800/30000 | Avg Reward: -0.03 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 2.4898 | Epsilon: 0.7047 | LR: 4.805734e-05
+Training Episodes:   3%|▎         | 1000/30000 [12:33<7:01:24,  1.15it/s]Ep 1000/30000 | Avg Reward: 0.05 | Avg Rounds: 2.79 | Log.Err %: 0.00% | Avg Loss: 3.1013 | Epsilon: 0.6467 | LR: 4.757933e-05
+Training Episodes:   4%|▍         | 1200/30000 [15:18<7:25:51,  1.08it/s]Ep 1200/30000 | Avg Reward: -0.03 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 1.5778 | Epsilon: 0.5920 | LR: 4.709176e-05
+Training Episodes:   5%|▍         | 1400/30000 [17:57<5:25:58,  1.46it/s]Ep 1400/30000 | Avg Reward: 0.03 | Avg Rounds: 2.82 | Log.Err %: 0.00% | Avg Loss: 0.6824 | Epsilon: 0.5429 | LR: 4.661919e-05
+Training Episodes:   5%|▌         | 1600/30000 [20:42<7:31:36,  1.05it/s]Ep 1600/30000 | Avg Reward: -0.01 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 1.0130 | Epsilon: 0.4977 | LR: 4.614970e-05
+Training Episodes:   6%|▌         | 1800/30000 [23:31<6:43:35,  1.16it/s]Ep 1800/30000 | Avg Reward: -0.03 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 1.2787 | Epsilon: 0.4561 | LR: 4.568250e-05
+Training Episodes:   7%|▋         | 1999/30000 [26:20<7:04:23,  1.10it/s]
+--- Episode 2000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 7)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 0, 1, 1]
+    ENV ROUND 1: Obs Res Synd: [0, 0, 1, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 2: Action (flip qubit 2)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [0, 1, 1, 1]
+    ENV ROUND 2: Obs Res Synd: [0, 1, 1, 1]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.075, Done: False
+    ENV ROUND 3: Action (flip qubit 5)
+    ENV ROUND 3: Residual Errors (3)
+    ENV ROUND 3: True Res Synd: [0, 0, 1, 0]
+    ENV ROUND 3: Obs Res Synd: [0, 0, 1, 0]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.025, Done: True
+Training Episodes:   7%|▋         | 2000/30000 [26:21<7:19:39,  1.06it/s]Ep 2000/30000 | Avg Reward: 0.11 | Avg Rounds: 2.75 | Log.Err %: 0.00% | Avg Loss: 1.5339 | Epsilon: 0.4192 | LR: 4.523620e-05
+Training Episodes:   7%|▋         | 2200/30000 [29:08<6:35:08,  1.17it/s]Ep 2200/30000 | Avg Reward: 0.14 | Avg Rounds: 2.73 | Log.Err %: 0.00% | Avg Loss: 1.6103 | Epsilon: 0.3855 | LR: 4.479586e-05
+Training Episodes:   8%|▊         | 2400/30000 [32:01<5:35:02,  1.37it/s]Ep 2400/30000 | Avg Reward: 0.05 | Avg Rounds: 2.81 | Log.Err %: 0.00% | Avg Loss: 1.7734 | Epsilon: 0.3536 | LR: 4.434712e-05
+Training Episodes:   8%|▊         | 2500/30000 [33:20<5:42:48,  1.34it/s]Saved model and agent state at episode 2500
+Training Episodes:   9%|▊         | 2600/30000 [34:36<3:24:24,  2.23it/s]Ep 2600/30000 | Avg Reward: 0.34 | Avg Rounds: 2.48 | Log.Err %: 0.00% | Avg Loss: 1.8822 | Epsilon: 0.3276 | LR: 4.395472e-05
+Training Episodes:   9%|▉         | 2800/30000 [37:17<6:34:30,  1.15it/s]Ep 2800/30000 | Avg Reward: 0.29 | Avg Rounds: 2.62 | Log.Err %: 0.00% | Avg Loss: 1.9566 | Epsilon: 0.3023 | LR: 4.354555e-05
+Training Episodes:  10%|█         | 3000/30000 [40:00<6:30:44,  1.15it/s]Ep 3000/30000 | Avg Reward: 0.29 | Avg Rounds: 2.57 | Log.Err %: 0.00% | Avg Loss: 1.9156 | Epsilon: 0.2794 | LR: 4.314712e-05
+Training Episodes:  11%|█         | 3200/30000 [42:53<7:16:02,  1.02it/s]Ep 3200/30000 | Avg Reward: 0.27 | Avg Rounds: 2.71 | Log.Err %: 0.00% | Avg Loss: 1.9833 | Epsilon: 0.2570 | LR: 4.273017e-05
+Training Episodes:  11%|█▏        | 3400/30000 [46:01<6:58:09,  1.06it/s]Ep 3400/30000 | Avg Reward: -0.05 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 2.0587 | Epsilon: 0.2352 | LR: 4.229003e-05
+Training Episodes:  12%|█▏        | 3600/30000 [49:04<6:27:14,  1.14it/s]Ep 3600/30000 | Avg Reward: -0.01 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 2.3224 | Epsilon: 0.2156 | LR: 4.186489e-05
+Training Episodes:  13%|█▎        | 3800/30000 [52:11<6:13:17,  1.17it/s]Ep 3800/30000 | Avg Reward: 0.02 | Avg Rounds: 2.81 | Log.Err %: 0.00% | Avg Loss: 2.3678 | Epsilon: 0.1978 | LR: 4.144551e-05
+Training Episodes:  13%|█▎        | 3999/30000 [55:10<7:21:29,  1.02s/it]
+--- Episode 4000 (Verbose) ---
+    ENV RESET: Initial X Errors (1): [0, 0, 0, 0, 0, 0, 0, 1, 0]
+    ENV RESET: True Syndrome: [0, 0, 1, 1]
+    ENV RESET: Observed Syndrome (State): [0, 0, 1, 1]
+    ENV ROUND 1: Action (flip qubit 7)
+    ENV ROUND 1: Residual Errors (0)
+    ENV ROUND 1: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: 1.000, Done: True
+Training Episodes:  13%|█▎        | 4000/30000 [55:10<5:51:22,  1.23it/s]Ep 4000/30000 | Avg Reward: 0.05 | Avg Rounds: 2.76 | Log.Err %: 0.00% | Avg Loss: 2.5802 | Epsilon: 0.1817 | LR: 4.103840e-05
+Training Episodes:  14%|█▍        | 4200/30000 [58:11<7:26:24,  1.04s/it]Ep 4200/30000 | Avg Reward: 0.01 | Avg Rounds: 2.79 | Log.Err %: 0.00% | Avg Loss: 2.7210 | Epsilon: 0.1668 | LR: 4.063094e-05
+Training Episodes:  15%|█▍        | 4400/30000 [1:01:21<6:35:19,  1.08it/s]Ep 4400/30000 | Avg Reward: -0.07 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 2.9223 | Epsilon: 0.1528 | LR: 4.021672e-05
+Training Episodes:  15%|█▌        | 4600/30000 [1:04:25<6:20:16,  1.11it/s]Ep 4600/30000 | Avg Reward: -0.03 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 3.2632 | Epsilon: 0.1400 | LR: 3.981101e-05
+Training Episodes:  16%|█▌        | 4800/30000 [1:07:30<6:42:14,  1.04it/s]Ep 4800/30000 | Avg Reward: -0.02 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 3.5421 | Epsilon: 0.1284 | LR: 3.940938e-05
+Training Episodes:  17%|█▋        | 5000/30000 [1:10:34<7:12:11,  1.04s/it]Ep 5000/30000 | Avg Reward: -0.02 | Avg Rounds: 2.81 | Log.Err %: 0.00% | Avg Loss: 3.9763 | Epsilon: 0.1177 | LR: 3.901460e-05
+Saved model and agent state at episode 5000
+Training Episodes:  17%|█▋        | 5200/30000 [1:13:34<6:53:24,  1.00s/it]Ep 5200/30000 | Avg Reward: -0.05 | Avg Rounds: 2.84 | Log.Err %: 0.00% | Avg Loss: 4.3901 | Epsilon: 0.1079 | LR: 3.862032e-05
+Training Episodes:  18%|█▊        | 5400/30000 [1:16:33<7:17:45,  1.07s/it]Ep 5400/30000 | Avg Reward: 0.01 | Avg Rounds: 2.75 | Log.Err %: 0.00% | Avg Loss: 4.6231 | Epsilon: 0.0991 | LR: 3.824165e-05
+Training Episodes:  19%|█▊        | 5600/30000 [1:19:33<4:55:31,  1.38it/s]Ep 5600/30000 | Avg Reward: 0.03 | Avg Rounds: 2.73 | Log.Err %: 0.00% | Avg Loss: 5.2347 | Epsilon: 0.0912 | LR: 3.787008e-05
+Training Episodes:  19%|█▉        | 5800/30000 [1:22:08<7:05:47,  1.06s/it]Ep 5800/30000 | Avg Reward: 0.47 | Avg Rounds: 2.38 | Log.Err %: 0.00% | Avg Loss: 5.4148 | Epsilon: 0.0848 | LR: 3.754976e-05
+Training Episodes:  20%|█▉        | 5999/30000 [1:25:08<4:55:01,  1.36it/s]
+--- Episode 6000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 2)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 2: Action (flip qubit 2)
+    ENV ROUND 2: Residual Errors (0)
+    ENV ROUND 2: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: 1.000, Done: True
+Training Episodes:  20%|██        | 6000/30000 [1:25:09<4:49:32,  1.38it/s]Ep 6000/30000 | Avg Reward: 0.02 | Avg Rounds: 2.77 | Log.Err %: 0.00% | Avg Loss: 5.8836 | Epsilon: 0.0779 | LR: 3.718025e-05
+Training Episodes:  21%|██        | 6200/30000 [1:27:44<5:36:24,  1.18it/s]Ep 6200/30000 | Avg Reward: 0.52 | Avg Rounds: 2.33 | Log.Err %: 0.00% | Avg Loss: 6.0900 | Epsilon: 0.0725 | LR: 3.687236e-05
+Training Episodes:  21%|██▏       | 6400/30000 [1:30:45<5:54:52,  1.11it/s]Ep 6400/30000 | Avg Reward: 0.14 | Avg Rounds: 2.71 | Log.Err %: 0.00% | Avg Loss: 6.5179 | Epsilon: 0.0667 | LR: 3.651736e-05
+Training Episodes:  22%|██▏       | 6600/30000 [1:33:47<5:45:02,  1.13it/s]Ep 6600/30000 | Avg Reward: 0.00 | Avg Rounds: 2.79 | Log.Err %: 0.00% | Avg Loss: 7.0887 | Epsilon: 0.0612 | LR: 3.615478e-05
+Training Episodes:  23%|██▎       | 6800/30000 [1:36:53<6:50:26,  1.06s/it]Ep 6800/30000 | Avg Reward: -0.07 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 7.5530 | Epsilon: 0.0561 | LR: 3.578364e-05
+Training Episodes:  23%|██▎       | 7000/30000 [1:40:00<5:00:46,  1.27it/s]Ep 7000/30000 | Avg Reward: -0.02 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 7.9572 | Epsilon: 0.0514 | LR: 3.542328e-05
+Training Episodes:  24%|██▍       | 7200/30000 [1:42:34<3:55:31,  1.61it/s]Ep 7200/30000 | Avg Reward: 0.49 | Avg Rounds: 2.37 | Log.Err %: 0.00% | Avg Loss: 8.6665 | Epsilon: 0.0478 | LR: 3.512429e-05
+Training Episodes:  25%|██▍       | 7400/30000 [1:45:02<5:26:20,  1.15it/s]Ep 7400/30000 | Avg Reward: 0.56 | Avg Rounds: 2.27 | Log.Err %: 0.00% | Avg Loss: 9.3219 | Epsilon: 0.0446 | LR: 3.484028e-05
+Training Episodes:  25%|██▌       | 7500/30000 [1:46:30<5:24:19,  1.16it/s]Saved model and agent state at episode 7500
+Training Episodes:  25%|██▌       | 7600/30000 [1:48:00<5:21:03,  1.16it/s]Ep 7600/30000 | Avg Reward: 0.12 | Avg Rounds: 2.73 | Log.Err %: 0.00% | Avg Loss: 9.6501 | Epsilon: 0.0410 | LR: 3.450114e-05
+Training Episodes:  26%|██▌       | 7800/30000 [1:51:04<5:31:54,  1.11it/s]Ep 7800/30000 | Avg Reward: 0.05 | Avg Rounds: 2.77 | Log.Err %: 0.00% | Avg Loss: 10.2507 | Epsilon: 0.0376 | LR: 3.416041e-05
+Training Episodes:  27%|██▋       | 7999/30000 [1:54:08<6:17:10,  1.03s/it]
+--- Episode 8000 (Verbose) ---
+    ENV RESET: Initial X Errors (2): [0, 0, 0, 1, 0, 0, 0, 0, 1]
+    ENV RESET: True Syndrome: [1, 0, 1, 1]
+    ENV RESET: Observed Syndrome (State): [1, 1, 1, 1]
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (3)
+    ENV ROUND 1: True Res Synd: [1, 1, 1, 0]
+    ENV ROUND 1: Obs Res Synd: [1, 1, 1, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.075, Done: False
+    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [1, 0, 1, 1]
+    ENV ROUND 2: Obs Res Synd: [1, 0, 1, 1]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.075, Done: False
+    ENV ROUND 3: Action (flip qubit 5)
+    ENV ROUND 3: Residual Errors (3)
+    ENV ROUND 3: True Res Synd: [1, 1, 1, 0]
+    ENV ROUND 3: Obs Res Synd: [1, 1, 1, 0]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.075, Done: True
+Training Episodes:  27%|██▋       | 8000/30000 [1:54:09<6:12:31,  1.02s/it]Ep 8000/30000 | Avg Reward: 0.04 | Avg Rounds: 2.78 | Log.Err %: 0.00% | Avg Loss: 10.8685 | Epsilon: 0.0346 | LR: 3.382244e-05
+Training Episodes:  27%|██▋       | 8200/30000 [1:57:15<6:21:05,  1.05s/it]Ep 8200/30000 | Avg Reward: 0.03 | Avg Rounds: 2.82 | Log.Err %: 0.00% | Avg Loss: 11.4283 | Epsilon: 0.0317 | LR: 3.348303e-05
+Training Episodes:  28%|██▊       | 8400/30000 [2:00:20<5:54:52,  1.01it/s]Ep 8400/30000 | Avg Reward: 0.08 | Avg Rounds: 2.71 | Log.Err %: 0.00% | Avg Loss: 12.3301 | Epsilon: 0.0292 | LR: 3.316006e-05
+Training Episodes:  29%|██▊       | 8600/30000 [2:03:30<5:32:53,  1.07it/s]Ep 8600/30000 | Avg Reward: -0.02 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 12.8252 | Epsilon: 0.0267 | LR: 3.282436e-05
+Training Episodes:  29%|██▉       | 8800/30000 [2:06:09<4:26:01,  1.33it/s]Ep 8800/30000 | Avg Reward: 0.48 | Avg Rounds: 2.42 | Log.Err %: 0.00% | Avg Loss: 13.4597 | Epsilon: 0.0248 | LR: 3.254149e-05
+Training Episodes:  30%|███       | 9000/30000 [2:08:49<5:12:09,  1.12it/s]Ep 9000/30000 | Avg Reward: 0.48 | Avg Rounds: 2.40 | Log.Err %: 0.00% | Avg Loss: 14.1801 | Epsilon: 0.0230 | LR: 3.226278e-05
+Training Episodes:  31%|███       | 9200/30000 [2:11:55<5:22:26,  1.08it/s]Ep 9200/30000 | Avg Reward: 0.01 | Avg Rounds: 2.81 | Log.Err %: 0.00% | Avg Loss: 15.2093 | Epsilon: 0.0211 | LR: 3.194073e-05
+Training Episodes:  31%|███▏      | 9400/30000 [2:15:06<5:08:45,  1.11it/s]Ep 9400/30000 | Avg Reward: -0.09 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 15.2916 | Epsilon: 0.0193 | LR: 3.160832e-05
+Training Episodes:  32%|███▏      | 9600/30000 [2:18:19<6:10:51,  1.09s/it]Ep 9600/30000 | Avg Reward: -0.06 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 16.1774 | Epsilon: 0.0177 | LR: 3.128553e-05
+Training Episodes:  33%|███▎      | 9800/30000 [2:21:27<5:17:25,  1.06it/s]Ep 9800/30000 | Avg Reward: -0.02 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 17.0466 | Epsilon: 0.0162 | LR: 3.096770e-05
+Training Episodes:  33%|███▎      | 9999/30000 [2:24:39<6:08:49,  1.11s/it]
+--- Episode 10000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 0)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [1, 0, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [1, 0, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 2: Action (flip qubit 2)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [1, 1, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [1, 1, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 3: Action (flip qubit 0)
+    ENV ROUND 3: Residual Errors (1)
+    ENV ROUND 3: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 3: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.025, Done: True
+Training Episodes:  33%|███▎      | 10000/30000 [2:24:41<6:08:56,  1.11s/it]Ep 10000/30000 | Avg Reward: -0.07 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 18.4127 | Epsilon: 0.0148 | LR: 3.064543e-05
+Saved model and agent state at episode 10000
+Training Episodes:  34%|███▍      | 10200/30000 [2:27:55<4:55:26,  1.12it/s]Ep 10200/30000 | Avg Reward: -0.10 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 19.5406 | Epsilon: 0.0135 | LR: 3.032704e-05
+Training Episodes:  35%|███▍      | 10400/30000 [2:31:12<5:04:02,  1.07it/s]Ep 10400/30000 | Avg Reward: -0.13 | Avg Rounds: 2.95 | Log.Err %: 0.00% | Avg Loss: 19.7536 | Epsilon: 0.0124 | LR: 3.000875e-05
+Training Episodes:  35%|███▌      | 10600/30000 [2:34:02<4:13:34,  1.28it/s]Ep 10600/30000 | Avg Reward: 0.34 | Avg Rounds: 2.51 | Log.Err %: 0.00% | Avg Loss: 21.0764 | Epsilon: 0.0115 | LR: 2.974057e-05
+Training Episodes:  36%|███▌      | 10800/30000 [2:37:15<3:29:28,  1.53it/s]Ep 10800/30000 | Avg Reward: -0.01 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 22.6629 | Epsilon: 0.0105 | LR: 2.943632e-05
+Training Episodes:  37%|███▋      | 11000/30000 [2:39:58<3:48:39,  1.38it/s]Ep 11000/30000 | Avg Reward: 0.50 | Avg Rounds: 2.40 | Log.Err %: 0.00% | Avg Loss: 22.8639 | Epsilon: 0.0100 | LR: 2.918421e-05
+Training Episodes:  37%|███▋      | 11200/30000 [2:42:59<4:51:17,  1.08it/s]Ep 11200/30000 | Avg Reward: 0.13 | Avg Rounds: 2.66 | Log.Err %: 0.00% | Avg Loss: 23.0852 | Epsilon: 0.0100 | LR: 2.890788e-05
+Training Episodes:  38%|███▊      | 11400/30000 [2:45:58<3:32:18,  1.46it/s]Ep 11400/30000 | Avg Reward: 0.20 | Avg Rounds: 2.62 | Log.Err %: 0.00% | Avg Loss: 23.2673 | Epsilon: 0.0100 | LR: 2.863877e-05
+Training Episodes:  39%|███▊      | 11600/30000 [2:48:39<5:12:24,  1.02s/it]Ep 11600/30000 | Avg Reward: 0.47 | Avg Rounds: 2.37 | Log.Err %: 0.00% | Avg Loss: 24.9863 | Epsilon: 0.0100 | LR: 2.839755e-05
+Training Episodes:  39%|███▉      | 11800/30000 [2:51:56<4:32:42,  1.11it/s]Ep 11800/30000 | Avg Reward: -0.15 | Avg Rounds: 2.95 | Log.Err %: 0.00% | Avg Loss: 25.6810 | Epsilon: 0.0100 | LR: 2.809951e-05
+Training Episodes:  40%|███▉      | 11999/30000 [2:55:14<5:06:07,  1.02s/it]
+--- Episode 12000 (Verbose) ---
+    ENV RESET: Initial X Errors (1): [0, 0, 1, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 1, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 1, 0, 0]
+    ENV ROUND 1: Action (flip qubit 8)
+    ENV ROUND 1: Residual Errors (2)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 2: Action (flip qubit 8)
+    ENV ROUND 2: Residual Errors (1)
+    ENV ROUND 2: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 3: Action (flip qubit 8)
+    ENV ROUND 3: Residual Errors (2)
+    ENV ROUND 3: True Res Synd: [0, 1, 0, 1]
+    ENV ROUND 3: Obs Res Synd: [0, 1, 0, 1]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.050, Done: True
+Training Episodes:  40%|████      | 12000/30000 [2:55:15<5:14:10,  1.05s/it]Ep 12000/30000 | Avg Reward: -0.12 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 26.0957 | Epsilon: 0.0100 | LR: 2.780708e-05
+Training Episodes:  41%|████      | 12200/30000 [2:58:21<4:47:27,  1.03it/s]Ep 12200/30000 | Avg Reward: 0.03 | Avg Rounds: 2.79 | Log.Err %: 0.00% | Avg Loss: 28.3594 | Epsilon: 0.0100 | LR: 2.753050e-05
+Training Episodes:  41%|████▏     | 12400/30000 [3:01:34<4:59:17,  1.02s/it]Ep 12400/30000 | Avg Reward: -0.07 | Avg Rounds: 2.91 | Log.Err %: 0.00% | Avg Loss: 28.9106 | Epsilon: 0.0100 | LR: 2.724545e-05
+Training Episodes:  42%|████▏     | 12500/30000 [3:02:55<4:15:07,  1.14it/s]Saved model and agent state at episode 12500
+Training Episodes:  42%|████▏     | 12600/30000 [3:04:14<4:14:20,  1.14it/s]Ep 12600/30000 | Avg Reward: 0.52 | Avg Rounds: 2.35 | Log.Err %: 0.00% | Avg Loss: 29.1300 | Epsilon: 0.0100 | LR: 2.701693e-05
+Training Episodes:  43%|████▎     | 12800/30000 [3:07:03<5:02:22,  1.05s/it]Ep 12800/30000 | Avg Reward: 0.36 | Avg Rounds: 2.52 | Log.Err %: 0.00% | Avg Loss: 30.0363 | Epsilon: 0.0100 | LR: 2.677501e-05
+Training Episodes:  43%|████▎     | 13000/30000 [3:10:17<3:48:25,  1.24it/s]Ep 13000/30000 | Avg Reward: -0.06 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 31.6397 | Epsilon: 0.0100 | LR: 2.649826e-05
+Training Episodes:  44%|████▍     | 13200/30000 [3:12:52<3:33:34,  1.31it/s]Ep 13200/30000 | Avg Reward: 0.58 | Avg Rounds: 2.31 | Log.Err %: 0.00% | Avg Loss: 30.6622 | Epsilon: 0.0100 | LR: 2.628071e-05
+Training Episodes:  45%|████▍     | 13400/30000 [3:15:29<3:22:50,  1.36it/s]Ep 13400/30000 | Avg Reward: 0.54 | Avg Rounds: 2.31 | Log.Err %: 0.00% | Avg Loss: 32.6078 | Epsilon: 0.0100 | LR: 2.606494e-05
+Training Episodes:  45%|████▌     | 13600/30000 [3:18:17<4:30:52,  1.01it/s]Ep 13600/30000 | Avg Reward: 0.42 | Avg Rounds: 2.44 | Log.Err %: 0.00% | Avg Loss: 33.4111 | Epsilon: 0.0100 | LR: 2.583847e-05
+Training Episodes:  46%|████▌     | 13800/30000 [3:21:29<4:08:25,  1.09it/s]Ep 13800/30000 | Avg Reward: -0.09 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 33.9268 | Epsilon: 0.0100 | LR: 2.557414e-05
+Training Episodes:  47%|████▋     | 13999/30000 [3:24:39<4:44:29,  1.07s/it]
+--- Episode 14000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 2: Action (flip qubit 8)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 3: Action (flip qubit 8)
+    ENV ROUND 3: Residual Errors (1)
+    ENV ROUND 3: True Res Synd: [0, 1, 0, 1]
+    ENV ROUND 3: Obs Res Synd: [0, 1, 0, 1]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.050, Done: True
+Training Episodes:  47%|████▋     | 14000/30000 [3:24:41<5:25:38,  1.22s/it]Ep 14000/30000 | Avg Reward: -0.06 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 35.8141 | Epsilon: 0.0100 | LR: 2.531297e-05
+Training Episodes:  47%|████▋     | 14200/30000 [3:28:04<4:57:44,  1.13s/it]Ep 14200/30000 | Avg Reward: -0.04 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 36.9064 | Epsilon: 0.0100 | LR: 2.505223e-05
+Training Episodes:  48%|████▊     | 14400/30000 [3:31:38<4:35:19,  1.06s/it]Ep 14400/30000 | Avg Reward: -0.01 | Avg Rounds: 2.93 | Log.Err %: 0.00% | Avg Loss: 35.6245 | Epsilon: 0.0100 | LR: 2.479107e-05
+Training Episodes:  49%|████▊     | 14600/30000 [3:35:25<4:55:53,  1.15s/it]Ep 14600/30000 | Avg Reward: -0.06 | Avg Rounds: 2.96 | Log.Err %: 0.00% | Avg Loss: 39.5997 | Epsilon: 0.0100 | LR: 2.453045e-05
+Training Episodes:  49%|████▉     | 14800/30000 [3:39:09<4:26:32,  1.05s/it]Ep 14800/30000 | Avg Reward: -0.02 | Avg Rounds: 2.91 | Log.Err %: 0.00% | Avg Loss: 39.4609 | Epsilon: 0.0100 | LR: 2.427646e-05
+Training Episodes:  50%|█████     | 15000/30000 [3:42:35<3:14:02,  1.29it/s]Ep 15000/30000 | Avg Reward: 0.20 | Avg Rounds: 2.71 | Log.Err %: 0.00% | Avg Loss: 39.6501 | Epsilon: 0.0100 | LR: 2.404230e-05
+Saved model and agent state at episode 15000
+Training Episodes:  51%|█████     | 15200/30000 [3:45:26<4:45:59,  1.16s/it]Ep 15200/30000 | Avg Reward: 0.67 | Avg Rounds: 2.21 | Log.Err %: 0.00% | Avg Loss: 42.6352 | Epsilon: 0.0100 | LR: 2.385344e-05
+Training Episodes:  51%|█████▏    | 15400/30000 [3:48:36<3:55:53,  1.03it/s]Ep 15400/30000 | Avg Reward: 0.41 | Avg Rounds: 2.49 | Log.Err %: 0.00% | Avg Loss: 42.7330 | Epsilon: 0.0100 | LR: 2.364196e-05
+Training Episodes:  52%|█████▏    | 15600/30000 [3:52:14<4:54:26,  1.23s/it]Ep 15600/30000 | Avg Reward: -0.08 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 43.8978 | Epsilon: 0.0100 | LR: 2.339759e-05
+Training Episodes:  53%|█████▎    | 15800/30000 [3:56:00<4:36:09,  1.17s/it]Ep 15800/30000 | Avg Reward: -0.11 | Avg Rounds: 2.94 | Log.Err %: 0.00% | Avg Loss: 45.2325 | Epsilon: 0.0100 | LR: 2.315244e-05
+Training Episodes:  53%|█████▎    | 15999/30000 [3:59:12<3:57:42,  1.02s/it]
+--- Episode 16000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 6)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 0, 1, 0]
+    ENV ROUND 1: Obs Res Synd: [0, 0, 1, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 2: Action (flip qubit 6)
+    ENV ROUND 2: Residual Errors (0)
+    ENV ROUND 2: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: 1.000, Done: True
+Training Episodes:  53%|█████▎    | 16000/30000 [3:59:12<3:35:53,  1.08it/s]Ep 16000/30000 | Avg Reward: 0.30 | Avg Rounds: 2.56 | Log.Err %: 0.00% | Avg Loss: 46.5496 | Epsilon: 0.0100 | LR: 2.294101e-05
+Training Episodes:  54%|█████▍    | 16200/30000 [4:02:04<3:26:43,  1.11it/s]Ep 16200/30000 | Avg Reward: 0.57 | Avg Rounds: 2.31 | Log.Err %: 0.00% | Avg Loss: 48.9075 | Epsilon: 0.0100 | LR: 2.275267e-05
+Training Episodes:  55%|█████▍    | 16400/30000 [4:05:01<2:50:09,  1.33it/s]Ep 16400/30000 | Avg Reward: 0.47 | Avg Rounds: 2.40 | Log.Err %: 0.00% | Avg Loss: 49.9337 | Epsilon: 0.0100 | LR: 2.255820e-05
+Training Episodes:  55%|█████▌    | 16600/30000 [4:08:48<5:29:39,  1.48s/it]Ep 16600/30000 | Avg Reward: 0.11 | Avg Rounds: 2.73 | Log.Err %: 0.00% | Avg Loss: 50.4163 | Epsilon: 0.0100 | LR: 2.233862e-05
+Training Episodes:  56%|█████▌    | 16800/30000 [4:13:04<4:21:25,  1.19s/it]Ep 16800/30000 | Avg Reward: -0.11 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 51.2178 | Epsilon: 0.0100 | LR: 2.210614e-05
+Training Episodes:  57%|█████▋    | 17000/30000 [4:17:06<3:55:25,  1.09s/it]Ep 17000/30000 | Avg Reward: -0.09 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 52.8002 | Epsilon: 0.0100 | LR: 2.188078e-05
+Training Episodes:  57%|█████▋    | 17200/30000 [4:21:09<5:05:58,  1.43s/it]Ep 17200/30000 | Avg Reward: -0.09 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 54.8372 | Epsilon: 0.0100 | LR: 2.165772e-05
+Training Episodes:  58%|█████▊    | 17400/30000 [4:25:22<3:25:33,  1.02it/s]Ep 17400/30000 | Avg Reward: -0.09 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 55.3382 | Epsilon: 0.0100 | LR: 2.143310e-05
+Training Episodes:  58%|█████▊    | 17500/30000 [4:27:05<4:05:44,  1.18s/it]Saved model and agent state at episode 17500
+Training Episodes:  59%|█████▊    | 17600/30000 [4:28:47<2:53:11,  1.19it/s]Ep 17600/30000 | Avg Reward: 0.47 | Avg Rounds: 2.42 | Log.Err %: 0.00% | Avg Loss: 56.1963 | Epsilon: 0.0100 | LR: 2.124877e-05
+Training Episodes:  59%|█████▉    | 17800/30000 [4:32:22<3:48:43,  1.12s/it]Ep 17800/30000 | Avg Reward: 0.36 | Avg Rounds: 2.49 | Log.Err %: 0.00% | Avg Loss: 59.0589 | Epsilon: 0.0100 | LR: 2.106037e-05
+Training Episodes:  60%|█████▉    | 17999/30000 [4:36:39<4:35:59,  1.38s/it]
+--- Episode 18000 (Verbose) ---
+    ENV RESET: Initial X Errors (1): [1, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [1, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [1, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (2)
+    ENV ROUND 1: True Res Synd: [1, 1, 0, 1]
+    ENV ROUND 1: Obs Res Synd: [1, 1, 0, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.075, Done: False
+    ENV ROUND 2: Action (flip qubit 8)
+    ENV ROUND 2: Residual Errors (3)
+    ENV ROUND 2: True Res Synd: [1, 1, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [1, 1, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 3: Action (flip qubit 8)
+    ENV ROUND 3: Residual Errors (2)
+    ENV ROUND 3: True Res Synd: [1, 1, 0, 1]
+    ENV ROUND 3: Obs Res Synd: [1, 1, 0, 1]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.075, Done: True
+Training Episodes:  60%|██████    | 18000/30000 [4:36:40<4:43:19,  1.42s/it]Ep 18000/30000 | Avg Reward: -0.03 | Avg Rounds: 2.84 | Log.Err %: 0.00% | Avg Loss: 58.6124 | Epsilon: 0.0100 | LR: 2.084754e-05
+Training Episodes:  61%|██████    | 18200/30000 [4:40:56<3:49:24,  1.17s/it]Ep 18200/30000 | Avg Reward: -0.06 | Avg Rounds: 2.87 | Log.Err %: 0.00% | Avg Loss: 60.9170 | Epsilon: 0.0100 | LR: 2.063464e-05
+Training Episodes:  61%|██████▏   | 18400/30000 [4:44:56<4:42:41,  1.46s/it]Ep 18400/30000 | Avg Reward: -0.11 | Avg Rounds: 2.93 | Log.Err %: 0.00% | Avg Loss: 60.2393 | Epsilon: 0.0100 | LR: 2.041953e-05
+Training Episodes:  62%|██████▏   | 18600/30000 [4:48:51<2:47:07,  1.14it/s]Ep 18600/30000 | Avg Reward: 0.08 | Avg Rounds: 2.72 | Log.Err %: 0.00% | Avg Loss: 61.4481 | Epsilon: 0.0100 | LR: 2.022185e-05
+Training Episodes:  63%|██████▎   | 18800/30000 [4:52:09<3:08:19,  1.01s/it]Ep 18800/30000 | Avg Reward: 0.62 | Avg Rounds: 2.35 | Log.Err %: 0.00% | Avg Loss: 65.1300 | Epsilon: 0.0100 | LR: 2.005296e-05
+Training Episodes:  63%|██████▎   | 19000/30000 [4:55:24<2:44:21,  1.12it/s]Ep 19000/30000 | Avg Reward: 0.58 | Avg Rounds: 2.35 | Log.Err %: 0.00% | Avg Loss: 65.8535 | Epsilon: 0.0100 | LR: 1.988477e-05
+Training Episodes:  64%|██████▍   | 19200/30000 [4:58:53<3:24:32,  1.14s/it]Ep 19200/30000 | Avg Reward: 0.33 | Avg Rounds: 2.54 | Log.Err %: 0.00% | Avg Loss: 65.2102 | Epsilon: 0.0100 | LR: 1.970459e-05
+Training Episodes:  65%|██████▍   | 19400/30000 [5:02:57<3:04:39,  1.05s/it]Ep 19400/30000 | Avg Reward: -0.10 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 67.2496 | Epsilon: 0.0100 | LR: 1.950127e-05
+Training Episodes:  65%|██████▌   | 19600/30000 [5:06:57<3:28:15,  1.20s/it]Ep 19600/30000 | Avg Reward: -0.03 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 67.2858 | Epsilon: 0.0100 | LR: 1.930384e-05
+Training Episodes:  66%|██████▌   | 19800/30000 [5:10:54<3:11:10,  1.12s/it]Ep 19800/30000 | Avg Reward: -0.04 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 69.0048 | Epsilon: 0.0100 | LR: 1.910637e-05
+Training Episodes:  67%|██████▋   | 19999/30000 [5:14:29<3:07:31,  1.13s/it]
+--- Episode 20000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (0)
+    ENV ROUND 2: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: 1.000, Done: True
+Training Episodes:  67%|██████▋   | 20000/30000 [5:14:30<3:08:51,  1.13s/it]Ep 20000/30000 | Avg Reward: 0.33 | Avg Rounds: 2.52 | Log.Err %: 0.00% | Avg Loss: 71.0172 | Epsilon: 0.0100 | LR: 1.893494e-05
+Saved model and agent state at episode 20000
+Training Episodes:  67%|██████▋   | 20200/30000 [5:17:51<2:34:08,  1.06it/s]Ep 20200/30000 | Avg Reward: 0.56 | Avg Rounds: 2.35 | Log.Err %: 0.00% | Avg Loss: 71.2204 | Epsilon: 0.0100 | LR: 1.877646e-05
+Training Episodes:  68%|██████▊   | 20400/30000 [5:21:10<2:48:07,  1.05s/it]Ep 20400/30000 | Avg Reward: 0.56 | Avg Rounds: 2.33 | Log.Err %: 0.00% | Avg Loss: 71.2778 | Epsilon: 0.0100 | LR: 1.862097e-05
+Training Episodes:  69%|██████▊   | 20600/30000 [5:24:31<2:37:01,  1.00s/it]Ep 20600/30000 | Avg Reward: 0.54 | Avg Rounds: 2.35 | Log.Err %: 0.00% | Avg Loss: 73.6351 | Epsilon: 0.0100 | LR: 1.846479e-05
+Training Episodes:  69%|██████▉   | 20800/30000 [5:28:26<2:58:46,  1.17s/it]Ep 20800/30000 | Avg Reward: 0.01 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 76.3031 | Epsilon: 0.0100 | LR: 1.827917e-05
+Training Episodes:  70%|███████   | 21000/30000 [5:32:28<3:30:45,  1.41s/it]Ep 21000/30000 | Avg Reward: -0.04 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 75.5816 | Epsilon: 0.0100 | LR: 1.809217e-05
+Training Episodes:  71%|███████   | 21200/30000 [5:36:25<2:32:08,  1.04s/it]Ep 21200/30000 | Avg Reward: -0.05 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 78.1168 | Epsilon: 0.0100 | LR: 1.790837e-05
+Training Episodes:  71%|███████▏  | 21400/30000 [5:40:24<2:43:10,  1.14s/it]Ep 21400/30000 | Avg Reward: -0.09 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 80.0192 | Epsilon: 0.0100 | LR: 1.772232e-05
+Training Episodes:  72%|███████▏  | 21600/30000 [5:44:22<3:06:12,  1.33s/it]Ep 21600/30000 | Avg Reward: 0.01 | Avg Rounds: 2.80 | Log.Err %: 0.00% | Avg Loss: 78.5225 | Epsilon: 0.0100 | LR: 1.754573e-05
+Training Episodes:  73%|███████▎  | 21800/30000 [5:48:19<2:07:54,  1.07it/s]Ep 21800/30000 | Avg Reward: -0.03 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 81.0173 | Epsilon: 0.0100 | LR: 1.736500e-05
+Training Episodes:  73%|███████▎  | 21999/30000 [5:52:17<2:58:30,  1.34s/it]
+--- Episode 22000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 0)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [1, 0, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [1, 0, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [1, 1, 0, 1]
+    ENV ROUND 2: Obs Res Synd: [1, 1, 0, 1]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.075, Done: False
+    ENV ROUND 3: Action (flip qubit 8)
+    ENV ROUND 3: Residual Errors (3)
+    ENV ROUND 3: True Res Synd: [1, 1, 0, 0]
+    ENV ROUND 3: Obs Res Synd: [1, 1, 0, 0]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.050, Done: True
+Training Episodes:  73%|███████▎  | 22000/30000 [5:52:18<2:58:37,  1.34s/it]Ep 22000/30000 | Avg Reward: -0.05 | Avg Rounds: 2.86 | Log.Err %: 0.00% | Avg Loss: 84.7019 | Epsilon: 0.0100 | LR: 1.718828e-05
+Training Episodes:  74%|███████▍  | 22200/30000 [5:56:26<2:32:31,  1.17s/it]Ep 22200/30000 | Avg Reward: 0.02 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 83.4248 | Epsilon: 0.0100 | LR: 1.701396e-05
+Training Episodes:  75%|███████▍  | 22400/30000 [5:59:44<2:04:12,  1.02it/s]Ep 22400/30000 | Avg Reward: 0.54 | Avg Rounds: 2.33 | Log.Err %: 0.00% | Avg Loss: 84.6329 | Epsilon: 0.0100 | LR: 1.687307e-05
+Training Episodes:  75%|███████▌  | 22500/30000 [6:01:20<1:47:32,  1.16it/s]Saved model and agent state at episode 22500
+Training Episodes:  75%|███████▌  | 22600/30000 [6:03:07<2:19:35,  1.13s/it]Ep 22600/30000 | Avg Reward: 0.42 | Avg Rounds: 2.44 | Log.Err %: 0.00% | Avg Loss: 90.1424 | Epsilon: 0.0100 | LR: 1.672676e-05
+Training Episodes:  76%|███████▌  | 22800/30000 [6:07:04<2:46:52,  1.39s/it]Ep 22800/30000 | Avg Reward: -0.07 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 86.2834 | Epsilon: 0.0100 | LR: 1.655565e-05
+Training Episodes:  77%|███████▋  | 23000/30000 [6:11:18<2:30:17,  1.29s/it]Ep 23000/30000 | Avg Reward: -0.08 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 91.7555 | Epsilon: 0.0100 | LR: 1.638453e-05
+Training Episodes:  77%|███████▋  | 23200/30000 [6:15:26<2:17:02,  1.21s/it]Ep 23200/30000 | Avg Reward: -0.15 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 90.0668 | Epsilon: 0.0100 | LR: 1.621402e-05
+Training Episodes:  78%|███████▊  | 23400/30000 [6:19:39<2:40:14,  1.46s/it]Ep 23400/30000 | Avg Reward: -0.12 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 93.0469 | Epsilon: 0.0100 | LR: 1.604700e-05
+Training Episodes:  79%|███████▊  | 23600/30000 [6:23:52<2:22:13,  1.33s/it]Ep 23600/30000 | Avg Reward: -0.13 | Avg Rounds: 2.91 | Log.Err %: 0.00% | Avg Loss: 92.4907 | Epsilon: 0.0100 | LR: 1.588086e-05
+Training Episodes:  79%|███████▉  | 23800/30000 [6:27:52<1:50:11,  1.07s/it]Ep 23800/30000 | Avg Reward: -0.13 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 93.4433 | Epsilon: 0.0100 | LR: 1.571727e-05
+Training Episodes:  80%|███████▉  | 23999/30000 [6:31:45<1:11:24,  1.40it/s]
+--- Episode 24000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 1, 0, 0]
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (0)
+    ENV ROUND 2: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: 1.000, Done: True
+Training Episodes:  80%|████████  | 24000/30000 [6:31:46<1:17:42,  1.29it/s]Ep 24000/30000 | Avg Reward: 0.04 | Avg Rounds: 2.75 | Log.Err %: 0.00% | Avg Loss: 91.8275 | Epsilon: 0.0100 | LR: 1.556344e-05
+Training Episodes:  81%|████████  | 24200/30000 [6:35:31<1:39:25,  1.03s/it]Ep 24200/30000 | Avg Reward: 0.13 | Avg Rounds: 2.68 | Log.Err %: 0.00% | Avg Loss: 96.7598 | Epsilon: 0.0100 | LR: 1.541498e-05
+Training Episodes:  81%|████████▏ | 24400/30000 [6:38:46<1:29:40,  1.04it/s]Ep 24400/30000 | Avg Reward: 0.53 | Avg Rounds: 2.36 | Log.Err %: 0.00% | Avg Loss: 95.3520 | Epsilon: 0.0100 | LR: 1.528541e-05
+Training Episodes:  82%|████████▏ | 24600/30000 [6:41:57<1:31:43,  1.02s/it]Ep 24600/30000 | Avg Reward: 0.56 | Avg Rounds: 2.33 | Log.Err %: 0.00% | Avg Loss: 101.0041 | Epsilon: 0.0100 | LR: 1.515829e-05
+Training Episodes:  83%|████████▎ | 24800/30000 [6:45:40<2:09:42,  1.50s/it]Ep 24800/30000 | Avg Reward: 0.20 | Avg Rounds: 2.66 | Log.Err %: 0.00% | Avg Loss: 101.7672 | Epsilon: 0.0100 | LR: 1.501477e-05
+Training Episodes:  83%|████████▎ | 25000/30000 [6:49:43<1:46:32,  1.28s/it]Ep 25000/30000 | Avg Reward: -0.07 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 102.0930 | Epsilon: 0.0100 | LR: 1.485984e-05
+Saved model and agent state at episode 25000
+Training Episodes:  84%|████████▍ | 25200/30000 [6:53:46<1:29:04,  1.11s/it]Ep 25200/30000 | Avg Reward: -0.10 | Avg Rounds: 2.93 | Log.Err %: 0.00% | Avg Loss: 99.4964 | Epsilon: 0.0100 | LR: 1.470493e-05
+Training Episodes:  85%|████████▍ | 25400/30000 [6:58:41<2:12:30,  1.73s/it]Ep 25400/30000 | Avg Reward: -0.10 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 102.5938 | Epsilon: 0.0100 | LR: 1.455190e-05
+Training Episodes:  85%|████████▌ | 25600/30000 [7:03:43<1:49:13,  1.49s/it]Ep 25600/30000 | Avg Reward: -0.08 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 103.6848 | Epsilon: 0.0100 | LR: 1.440149e-05
+Training Episodes:  86%|████████▌ | 25800/30000 [7:08:38<2:00:46,  1.73s/it]Ep 25800/30000 | Avg Reward: -0.06 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 102.8967 | Epsilon: 0.0100 | LR: 1.425365e-05
+Training Episodes:  87%|████████▋ | 25999/30000 [7:13:49<1:34:13,  1.41s/it]
+--- Episode 26000 (Verbose) ---
+    ENV RESET: Initial X Errors (2): [0, 0, 0, 0, 1, 1, 0, 0, 0]
+    ENV RESET: True Syndrome: [1, 0, 1, 0]
+    ENV RESET: Observed Syndrome (State): [1, 1, 1, 0]
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [1, 1, 1, 1]
+    ENV ROUND 1: Obs Res Synd: [1, 1, 1, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.100, Done: False
+    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [1, 0, 1, 0]
+    ENV ROUND 2: Obs Res Synd: [1, 0, 1, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 3: Action (flip qubit 5)
+    ENV ROUND 3: Residual Errors (1)
+    ENV ROUND 3: True Res Synd: [1, 1, 1, 1]
+    ENV ROUND 3: Obs Res Synd: [1, 1, 1, 1]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.100, Done: True
+Training Episodes:  87%|████████▋ | 26000/30000 [7:13:51<1:35:42,  1.44s/it]Ep 26000/30000 | Avg Reward: -0.08 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 103.3249 | Epsilon: 0.0100 | LR: 1.410658e-05
+Training Episodes:  87%|████████▋ | 26200/30000 [7:18:52<1:14:42,  1.18s/it]Ep 26200/30000 | Avg Reward: -0.07 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 105.9324 | Epsilon: 0.0100 | LR: 1.396102e-05
+Training Episodes:  88%|████████▊ | 26400/30000 [7:23:51<1:44:24,  1.74s/it]Ep 26400/30000 | Avg Reward: 0.01 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 111.5860 | Epsilon: 0.0100 | LR: 1.382043e-05
+Training Episodes:  89%|████████▊ | 26600/30000 [7:28:53<1:31:09,  1.61s/it]Ep 26600/30000 | Avg Reward: -0.04 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 112.4367 | Epsilon: 0.0100 | LR: 1.367905e-05
+Training Episodes:  89%|████████▉ | 26800/30000 [7:33:47<1:10:55,  1.33s/it]Ep 26800/30000 | Avg Reward: -0.04 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 111.7699 | Epsilon: 0.0100 | LR: 1.353887e-05
+Training Episodes:  90%|█████████ | 27000/30000 [7:38:37<1:13:17,  1.47s/it]Ep 27000/30000 | Avg Reward: 0.06 | Avg Rounds: 2.79 | Log.Err %: 0.00% | Avg Loss: 111.6119 | Epsilon: 0.0100 | LR: 1.340444e-05
+Training Episodes:  91%|█████████ | 27200/30000 [7:42:34<59:45,  1.28s/it]Ep 27200/30000 | Avg Reward: 0.60 | Avg Rounds: 2.29 | Log.Err %: 0.00% | Avg Loss: 112.6557 | Epsilon: 0.0100 | LR: 1.329534e-05
+Training Episodes:  91%|█████████▏| 27400/30000 [7:46:32<55:51,  1.29s/it]Ep 27400/30000 | Avg Reward: 0.56 | Avg Rounds: 2.31 | Log.Err %: 0.00% | Avg Loss: 115.1812 | Epsilon: 0.0100 | LR: 1.318572e-05
+Training Episodes:  92%|█████████▏| 27500/30000 [7:48:53<1:11:31,  1.72s/it]Saved model and agent state at episode 27500
+Training Episodes:  92%|█████████▏| 27600/30000 [7:51:22<54:25,  1.36s/it]Ep 27600/30000 | Avg Reward: -0.01 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 115.8805 | Epsilon: 0.0100 | LR: 1.305060e-05
+Training Episodes:  93%|█████████▎| 27800/30000 [7:56:20<58:55,  1.61s/it]Ep 27800/30000 | Avg Reward: -0.03 | Avg Rounds: 2.88 | Log.Err %: 0.00% | Avg Loss: 117.7276 | Epsilon: 0.0100 | LR: 1.291663e-05
+Training Episodes:  93%|█████████▎| 27999/30000 [8:01:10<53:44,  1.61s/it]
+--- Episode 28000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 8)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 0, 0, 1]
+    ENV ROUND 1: Obs Res Synd: [0, 0, 0, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (2)
+    ENV ROUND 2: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 3: Action (flip qubit 5)
+    ENV ROUND 3: Residual Errors (1)
+    ENV ROUND 3: True Res Synd: [0, 0, 0, 1]
+    ENV ROUND 3: Obs Res Synd: [0, 0, 0, 1]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.025, Done: True
+Training Episodes:  93%|█████████▎| 28000/30000 [8:01:11<51:42,  1.55s/it]Ep 28000/30000 | Avg Reward: -0.00 | Avg Rounds: 2.85 | Log.Err %: 0.00% | Avg Loss: 119.9891 | Epsilon: 0.0100 | LR: 1.278541e-05
+Training Episodes:  94%|█████████▍| 28200/30000 [8:06:05<36:23,  1.21s/it]Ep 28200/30000 | Avg Reward: -0.04 | Avg Rounds: 2.92 | Log.Err %: 0.00% | Avg Loss: 120.4776 | Epsilon: 0.0100 | LR: 1.265280e-05
+Training Episodes:  95%|█████████▍| 28400/30000 [8:11:08<41:25,  1.55s/it]Ep 28400/30000 | Avg Reward: -0.05 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 117.5134 | Epsilon: 0.0100 | LR: 1.252247e-05
+Training Episodes:  95%|█████████▌| 28600/30000 [8:15:59<27:30,  1.18s/it]Ep 28600/30000 | Avg Reward: -0.04 | Avg Rounds: 2.83 | Log.Err %: 0.00% | Avg Loss: 123.1994 | Epsilon: 0.0100 | LR: 1.239614e-05
+Training Episodes:  96%|█████████▌| 28800/30000 [8:21:00<33:26,  1.67s/it]Ep 28800/30000 | Avg Reward: -0.10 | Avg Rounds: 2.93 | Log.Err %: 0.00% | Avg Loss: 123.4465 | Epsilon: 0.0100 | LR: 1.226692e-05
+Training Episodes:  97%|█████████▋| 29000/30000 [8:26:03<20:18,  1.22s/it]Ep 29000/30000 | Avg Reward: -0.08 | Avg Rounds: 2.90 | Log.Err %: 0.00% | Avg Loss: 124.8930 | Epsilon: 0.0100 | LR: 1.214034e-05
+Training Episodes:  97%|█████████▋| 29200/30000 [8:30:37<12:22,  1.08it/s]Ep 29200/30000 | Avg Reward: 0.22 | Avg Rounds: 2.62 | Log.Err %: 0.00% | Avg Loss: 124.8849 | Epsilon: 0.0100 | LR: 1.202690e-05
+Training Episodes:  98%|█████████▊| 29400/30000 [8:34:37<11:43,  1.17s/it]Ep 29400/30000 | Avg Reward: 0.58 | Avg Rounds: 2.33 | Log.Err %: 0.00% | Avg Loss: 126.7352 | Epsilon: 0.0100 | LR: 1.192730e-05
+Training Episodes:  99%|█████████▊| 29600/30000 [8:38:36<07:27,  1.12s/it]Ep 29600/30000 | Avg Reward: 0.54 | Avg Rounds: 2.35 | Log.Err %: 0.00% | Avg Loss: 126.0335 | Epsilon: 0.0100 | LR: 1.182726e-05
+Training Episodes:  99%|█████████▉| 29800/30000 [8:42:31<04:01,  1.21s/it]Ep 29800/30000 | Avg Reward: 0.59 | Avg Rounds: 2.29 | Log.Err %: 0.00% | Avg Loss: 127.2562 | Epsilon: 0.0100 | LR: 1.173079e-05
+Training Episodes: 100%|█████████▉| 29999/30000 [8:46:48<00:01,  1.33s/it]
+--- Episode 30000 (Verbose) ---
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+    ENV ROUND 1: Action (flip qubit 2)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+    ENV ROUND 2: Action (flip qubit 2)
+    ENV ROUND 2: Residual Errors (0)
+    ENV ROUND 2: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: 1.000, Done: True
+Training Episodes: 100%|██████████| 30000/30000 [8:46:49<00:00,  1.05s/it]
+Ep 30000/30000 | Avg Reward: 0.38 | Avg Rounds: 2.49 | Log.Err %: 0.00% | Avg Loss: 131.0729 | Epsilon: 0.0100 | LR: 1.162678e-05
+Saved model and agent state at episode 30000
+
+--- Training Finished ---
+Saved model and agent state at episode 30000
+Training summary plots saved to super_enhanced_dqn_qec_model/training_summary_d3.png
+
+--- Testing Enhanced Learned Policy (Greedy Exploration) ---
+Testing Progress:   0%|          | 0/500 [00:00<?, ?it/s]    ENV RESET: Initial X Errors (1): [0, 0, 0, 1, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [1, 0, 1, 0]
+    ENV RESET: Observed Syndrome (State): [1, 0, 1, 0]
+
+--- Test Episode 1 ---
+    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (2)
+    ENV ROUND 1: True Res Synd: [1, 1, 1, 1]
+    ENV ROUND 1: Obs Res Synd: [1, 1, 1, 1]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.100, Done: False
+Testing Progress:   0%|          | 1/500 [00:00<03:20,  2.49it/s]    ENV ROUND 2: Action (flip qubit 5)
+    ENV ROUND 2: Residual Errors (1)
+    ENV ROUND 2: True Res Synd: [1, 0, 1, 0]
+    ENV ROUND 2: Obs Res Synd: [1, 0, 1, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: -0.050, Done: False
+    ENV ROUND 3: Action (flip qubit 5)
+    ENV ROUND 3: Residual Errors (2)
+    ENV ROUND 3: True Res Synd: [1, 1, 1, 1]
+    ENV ROUND 3: Obs Res Synd: [1, 1, 1, 1]
+    ENV ROUND 3: Log Err (step): False, Reward: -0.100, Done: True
+    ENV RESET: Initial X Errors (1): [0, 0, 0, 0, 0, 1, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 1, 0, 1]
+    ENV RESET: Observed Syndrome (State): [0, 1, 0, 1]
+
+--- Test Episode 2 ---
+Testing Progress:   0%|          | 2/500 [00:00<02:07,  3.91it/s]    ENV ROUND 1: Action (flip qubit 5)
+    ENV ROUND 1: Residual Errors (0)
+    ENV ROUND 1: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: 1.000, Done: True
+    ENV RESET: Initial X Errors (0): [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ENV RESET: True Syndrome: [0, 0, 0, 0]
+    ENV RESET: Observed Syndrome (State): [0, 0, 0, 0]
+
+--- Test Episode 3 ---
+    ENV ROUND 1: Action (flip qubit 2)
+    ENV ROUND 1: Residual Errors (1)
+    ENV ROUND 1: True Res Synd: [0, 1, 0, 0]
+    ENV ROUND 1: Obs Res Synd: [0, 1, 0, 0]
+    ENV ROUND 1: Log Err (step): False, Reward: -0.025, Done: False
+Testing Progress:   1%|          | 3/500 [00:00<02:19,  3.56it/s]    ENV ROUND 2: Action (flip qubit 2)
+    ENV ROUND 2: Residual Errors (0)
+    ENV ROUND 2: True Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Obs Res Synd: [0, 0, 0, 0]
+    ENV ROUND 2: Log Err (step): False, Reward: 1.000, Done: True
+Testing Progress: 100%|██████████| 500/500 [02:03<00:00,  4.06it/s]
+Test Results (500 episodes):
+  Logical Error Rate: 0.00% (0/500)
+  Average Rounds per Episode: 2.32
+  Episodes with Syndrome Cleared: 63.00%
+  Average Final Syndrome Weight (observed): 0.80

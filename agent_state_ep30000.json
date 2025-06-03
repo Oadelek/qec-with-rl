@@ -1,0 +1,40 @@
+{
+    "episode": 30000,
+    "epsilon": 0.01,
+    "training_steps_done": 81572,
+    "env_steps_done": 81635,
+    "current_lr_for_logging": 1.162678290711483e-05,
+    "hparams": {
+        "CODE_DISTANCE": 3,
+        "ERROR_PROBABILITY": 0.05,
+        "MEASUREMENT_ERROR_PROBABILITY": 0.01,
+        "MAX_CORRECTION_ROUNDS": 3,
+        "REPLAY_BUFFER_SIZE": 50000,
+        "BATCH_SIZE": 64,
+        "GAMMA": 0.95,
+        "EPSILON_START": 1.0,
+        "EPSILON_MIN": 0.01,
+        "EPSILON_DECAY_STEPS": 30000,
+        "LEARNING_RATE_START": 5e-05,
+        "LEARNING_RATE_DECAY_STEPS": 20000,
+        "LEARNING_RATE_END": 1e-05,
+        "TARGET_NETWORK_UPDATE_FREQ": 1000,
+        "TAU": 0.005,
+        "HIDDEN_UNITS": [
+            256,
+            128
+        ],
+        "USE_CONV_LAYERS": true,
+        "DROPOUT_RATE": 0.1,
+        "USE_BATCH_NORM": true,
+        "NUM_EPISODES": 30000,
+        "PRINT_EVERY_EPISODES": 200,
+        "SAVE_MODEL_EVERY_EPISODES": 2500,
+        "MODEL_SAVE_DIR": "super_enhanced_dqn_qec_model",
+        "VERBOSE_LOGGING_EPISODE_INTERVAL": 2000,
+        "USE_PRIORITIZED_REPLAY": false,
+        "USE_DOUBLE_DQN": true,
+        "USE_SYNDROME_HISTORY": true,
+        "SYNDROME_HISTORY_LENGTH": 3
+    }
+}
